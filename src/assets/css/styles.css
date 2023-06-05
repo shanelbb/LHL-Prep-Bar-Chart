@@ -1,0 +1,46 @@
+body {
+  margin: 50px;
+  width: 100%;
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.y-num {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.x-axis {
+  display: flex;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 50px 0px 10px;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.x-axis li{
+  text-align: center;
+  margin: 0 20px;
+  align-self: flex-end;
+}
+
+.x-num {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.x-num li {
+  text-align: center;
+}
